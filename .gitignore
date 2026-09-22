@@ -10,3 +10,12 @@ __pycache__/
 input.txt
 env/
 venv/
+.venv/
+.cache/
+.env
+.env.*
+!.env.example
+wandb/
+runs/
+data/**/meta.json
+data/**/tokenizer.json

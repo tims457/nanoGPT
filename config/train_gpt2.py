@@ -2,8 +2,9 @@
 # launch as the following (e.g. in a screen session) and wait ~5 days:
 # $ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py
 
+out_dir = 'runs/gpt2'
 wandb_log = True
-wandb_project = 'owt'
+wandb_project = 'lm_research'
 wandb_run_name='gpt2-124M'
 
 # these make the total batch size be ~0.5M
